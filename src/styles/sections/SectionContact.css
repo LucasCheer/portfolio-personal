@@ -1,0 +1,79 @@
+.section-contact {
+  padding: 1rem 0;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact-title {
+  margin-top: 0rem;
+  padding: 0;
+}
+
+#contact-subtitle {
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+.form {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  padding: 1rem 0;
+  margin: 1rem 0 0 0;
+
+  & input {
+    width: 100%;
+    max-width: 784px;
+    color: whitesmoke;
+    height: 3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(16, 16, 70, 0.566);
+    padding: .55rem;
+    margin: 1rem 0;
+    border: 2px solid #0084ff2c;
+    transition: 200ms ease-in-out;
+  }
+
+  textarea {
+    all: unset;
+    width: 100%;
+    height: 5rem;
+    font-size: 1rem;
+    background-color: rgba(16, 16, 70, 0.566);;
+    border-radius: 8px;
+    padding: .5rem;
+    margin: 1rem 0;
+    border: 2px solid #0084ff2c;
+    transition: 100ms ease-in-out;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+  }
+
+  #message {
+    box-sizing: border-box;
+    height: 10rem;
+    margin-bottom: 2rem;
+  }
+
+  & .btn-contact {
+    padding: 8px 20px; 
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+
+    &:hover {
+      background-color: #014a8d;
+      border: 3px solid #014a8d;;
+    }
+  }
+}
