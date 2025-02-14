@@ -3,7 +3,7 @@ import '../styles/sections/SectionProjects.css'
 
 export default function SectionProjects() {
   return (
-    <section className='section-projects'>
+    <section id='section-projects' className='section-projects'>
       
     </section>
   )

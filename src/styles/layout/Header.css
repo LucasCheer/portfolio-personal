@@ -33,14 +33,12 @@
       }
 
       &:hover{
-
           & #name-logo{
             cursor: pointer;
           }
       }
     }
 
-    
     & .items {
       width: 300px;
       font-weight: 600;
