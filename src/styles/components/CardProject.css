@@ -1,0 +1,126 @@
+& .project-num {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+  color: rgb(159, 208, 250);
+  border: 3px solid var(--border-color);
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  box-sizing: content-box;
+  transition-duration: 300ms;
+
+  & .photo-project {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+
+    & a {
+      display: block;
+      width: 100%;
+      height: 100%;
+
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
+
+
+  }
+
+  & .info-project {
+    padding: 1rem 1.5rem;
+
+    & h2 {
+      color: var(--primary-color);
+      font-size: 1.6rem;
+      padding: .4rem 0;
+    }
+
+    & .tablet-container {
+      display: flex;
+      gap: .5rem;
+      padding: .5rem 0;
+      font-size: 1rem;
+
+      & .tablet {
+        background-color: #00153b;
+        border-radius: 30px;
+        border: 2px solid var(--border-color);
+        padding: .2rem .6rem;
+        font-size: .8rem;
+        transition-duration: 200ms;
+      }
+
+      & .tablet:hover {
+        background-color: var(--primary-color);
+      }
+    }
+
+    & .descrip-project {
+      color: rgba(225, 225, 225, 0.861);
+      font-size: 1rem;
+      padding: .5rem 0;
+    }
+  }
+
+  & .btn-container {
+    padding: 0 0 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+
+    & .btn-card {
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: whitesmoke;
+      text-decoration: none;
+      margin-right: .5rem;
+      padding: .6rem .75rem;
+      border: 3px solid var(--border-color);
+      border-radius: 8px;
+      gap: .5rem;
+      transition: all 400ms ease-in-out;
+
+      & img {
+        width: 26px;
+        filter: invert(1);
+      }
+
+      & .icon{
+        width: 22px;
+      }
+
+      &:hover {
+        background-color: var(--primary-color);
+      }
+    }
+  }
+}
+
+& .project-num:hover {
+  cursor: pointer;
+  overflow: hidden;
+
+  & .photo-project {
+    & img {
+      transform: scale(1.1);
+    }
+  }
+}

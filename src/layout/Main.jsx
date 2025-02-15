@@ -7,6 +7,7 @@ export default function Main() {
   return (
     <main>
       <SectionABout />
+      <SectionProjects />
       <SectionContact />
     </main>
   )

@@ -23,9 +23,8 @@
   & input {
     color: whitesmoke;
     max-width: 784px;
-    height: 3rem;
     border: none;
-    padding: .5rem;
+    padding: .75rem .5rem;
     margin: 1rem 0;
     transition: 200ms ease-in-out;
   }

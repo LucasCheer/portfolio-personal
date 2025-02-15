@@ -20,11 +20,11 @@ function CardProject({title, description, techs = [], imgProject, link, linkRepo
             </div>
 
             <div className="btn-container">
-                    <a className='btn btn-projects btn-dark' href={linkRepo} target='_blank'>
-                        <img id='icon-git' className='icon' src={iconGit} alt="Icono Git"/>Repositorio
+                    <a className='btn-card' href={linkRepo} target='_blank'>
+                        <img id='icon-git' className='icon-git' src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Icono Git"/>Repositorio
                     </a>
-                    <a className='btn btn-projects btn-dark' href={link} target='_blank'>
-                        <img className='icon' src={iconLink} alt="Icono Link"/>Demo
+                    <a className='btn-card' href={link} target='_blank'>
+                        <img className='icon' src="https://static-00.iconduck.com/assets.00/create-link-icon-1024x1024-magrbcee.png" alt="Icono Link"/>Demo
                     </a>
             </div>
         </article>
