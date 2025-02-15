@@ -14,6 +14,7 @@
   justify-content: end;
   box-sizing: content-box;
   transition-duration: 300ms;
+  background-color: rgba(2, 2, 55, 0.212);
 
   & .photo-project {
     width: 100%;
@@ -47,7 +48,7 @@
     padding: 1rem 1.5rem;
 
     & h2 {
-      color: var(--primary-color);
+      color: whitesmoke;
       font-size: 1.6rem;
       padding: .4rem 0;
     }
