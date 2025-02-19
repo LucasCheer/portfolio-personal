@@ -7,7 +7,7 @@ function CardProject({title, description, techs = [], imgProject, link, linkRepo
     return (
         <article className="project-num">
             <figure className="photo-project">
-                <a href="#">
+                <a href={link} target='_blank'>
                     <img src={imgProject} alt="Imagen del proyecto" /></a>
             </figure>
 
